@@ -16,7 +16,7 @@ exports[`should render ExpenseListItem component 1`] = `
   </p>
   <p>
     Created At: 
-    345600000
+    January 4th, 1970
   </p>
 </div>
 `;
