@@ -3,7 +3,6 @@ import { shallow } from "enzyme";
 import { ExpenseListFilters } from "../../components/ExpenseListFilters";
 import moment from "moment";
 import { filters, altFilters } from "../fixtures/filters";
-import { start } from "repl";
 
 let setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate, wrapper;
 

@@ -11,7 +11,7 @@ exports[`should render ExpenseList component 1`] = `
     note=""
   />
   <Connect(ExpenseListItem)
-    amount={2000000}
+    amount={150000}
     createdAt={-345600000}
     description="Rent"
     id="2"
