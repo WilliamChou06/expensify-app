@@ -63,3 +63,28 @@ test("should not edit expense (wrong id)", () => {
     const state = expensesReducer(expenses, action);
     expect(state[0]).toEqual(expenses[0]);
 });
+
+test("should set expenses", () => {
+    const action = {
+        type: "SET_EXPENSES",
+        expenses: [
+            {
+                id:"setEXPID",
+                description: "Gas bill",
+                note: "Very imporntat",
+                amount: 1000,
+                createdAt: 11234442
+            },
+            {
+                id:"setEXPID22",
+                description: "Water bill",
+                note: "Very gud",
+                amount: 4142,
+                createdAt: 222
+            }
+        ]
+        
+    }
+    const state = expensesReducer(expenses, action)
+    expect(state).toEqual(action.expenses)
+})
