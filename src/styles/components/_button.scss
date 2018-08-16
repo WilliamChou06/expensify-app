@@ -1,0 +1,22 @@
+.loginBtn {
+    background: $dark-grey;
+    padding: 10px;
+}
+
+.logoutBtn {
+    background: none;
+}
+
+.addExpenseBtn {
+    background: $dark-grey;
+    display: inline-block;
+    line-height: 1;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.removeExpenseBtn {
+    @extend .addExpenseBtn;
+    background: #dc3545;
+}
